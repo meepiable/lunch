@@ -94,7 +94,7 @@ function buyLunches() {
   lunches++;
   document.getElementById("receipt").innerHTML += "<p>On day " + day + ", sandwiches are: $" + priceToday + ". You have $" + money.toFixed(2) + " left.</p>";
   } else {
-document.getElementById("receipt").innerHTML += "<p>Today, sandwiches are: $" + priceToday + ". You don't have enough money. Maybe your friend, <em><strong>" + friend + "</strong></em>, will share with you her sandwich or loan you money.</p>";
+document.getElementById("receipt").innerHTML += "<p>Today, sandwiches are: $" + priceToday + ". You don't have enough money. Maybe your friend, <em><strong>" + friend + "</strong></em>, will share with you a sandwich or loan you money.</p>";
 money = 0;
   }
   }
